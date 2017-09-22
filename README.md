@@ -15,9 +15,9 @@ Different way to build logo animate<br/><br/>
 }<br/>
 
 
-Web Page <a href="http://htmlpreview.github.io/?https://github.com/tyrionchiang/RedesignCode-DigitalDrift/blob/master/index.html">Demo</a>
+Web page <a href="http://htmlpreview.github.io/?https://github.com/tyrionchiang/RedesignCode-DigitalDrift/blob/master/index.html">Demo</a>
 
-oringal web <a href="http://www.ddrift.com/#2">link</a>
+Oringal web <a href="http://www.ddrift.com/">link</a>
 
 
 <br/><br/>
