@@ -4,12 +4,14 @@
 
 Different way to build logo animate<br/><br/>
 @keyframes polygons {<br/>
-&nbsp;0% {<br/>
-&nbsp;&nbsp;clip-path: polygon( 0 100%, 48% 4%, 48% 4%, 50% 0, 50% 0, 83.8% 67.5%, 83.8% 67.5%, 84.6% 68.9%, 84.6% 68.9%, 100% 100%);<br/>
-&nbsp;}<br/>
-&nbsp;100% {<br/>
-&nbsp;&nbsp;clip-path: polygon( 0 100%, 48% 4%, 33.4% 100%, 34.9% 100%, 50% 0, 83.8% 67.5%, 35.5% 100%, 38.1% 100%, 84.6% 68.9%, 100% 100%);<br/>
-&nbsp;}<br/>
+&nbsp;&nbsp;0% {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;clip-path: polygon( 0 100%, 48% 4%, 48% 4%, 50% 0, 50% 0, 83.8% 67.5%, <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;83.8% 67.5%, 84.6% 68.9%, 84.6% 68.9%, 100% 100%);<br/>
+&nbsp;&nbsp;}<br/>
+&nbsp;&nbsp;100% {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;clip-path: polygon( 0 100%, 48% 4%, 33.4% 100%, 34.9% 100%, 50% 0, 83.8% 67.5%, <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;35.5% 100%, 38.1% 100%, 84.6% 68.9%, 100% 100%);<br/>
+&nbsp;&nbsp;}<br/>
 }<br/>
 
 
