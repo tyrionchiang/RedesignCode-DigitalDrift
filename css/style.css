@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+@font-face {
+    font-family: 'YuGothic Medium';
+    src: url(../fonts/yugothicmedium.ttf);
+}
+
+html {
+  	height: 100%;
+}
+.wrapper {
+    height: 100% !important;
+    height: 100%;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+.main {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.page1,
+.page2,
+.page3{
+	background:url(../img/background.png);
+	/*text-align: center;*/
+	color: #666;
+	font-family: 'Raleway', 'YuGothic', Arial, serif;
+}
+.page1_container{
+	margin: 0 auto;
+	z-index: 3;
+}
+
+/***************************** page1 title *****************************/
+.page1_container{
+	position: relative;
+	top: 40%;
+	max-width: 1024px;
+	height: 60%;
+}
+
+
+.home_title{
+	margin: 0;
+	text-align: center;
+	font-size: 72pt;
+	color: #666;
+	letter-spacing: 10px;
+}
+
+.arrow{
+	position: absolute;
+	bottom: 15%;
+	left: 48%;
+	width: 3%;
+}
+
+/***************************** page2 aboutus *****************************/
+.page2_container{
+	height: 100%;
+}
+
+
+.aboutus_title{
+	position: absolute;
+	top: 32%;
+	left: 10%;
+	color: #555;
+	font-size: 36px;
+	letter-spacing: 10px;
+	-ms-transform: rotate(-57deg); 
+    -webkit-transform: rotate(-57deg); 
+    transform: rotate(-57deg);
+}
+
+
+.aboutus_content_text{
+	position: static;
+	top: 0px;
+	left: 12px;
+	color: #555;
+	font-size: 12px;
+	line-height: 160%;
+	text-align: left;
+	font-family:'YuGothic Medium';
+	letter-spacing: 5px;
+	padding-top: 100px;
+	z-index: 3;
+}
+
+.aboutus_photo{
+	opacity: 1.0;
+	position: absolute;
+	left: 163px;
+	bottom: 0%;
+	width: 10px;
+	height: 10px;
+	margin: 0;
+	background: url(../img/d1.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+	clip-path: polygon(
+	    0 100%, 48% 4%, 48% 4%, 50% 0,
+	    50% 0, 83.8% 67.5%, 83.8% 67.5%, 84.6% 68.9%,
+	    84.6% 68.9%, 100% 100%);
+
+	-webkit-clip-path: polygon(
+	    0 100%, 48% 4%, 48% 4%, 50% 0,
+	    50% 0, 83.8% 67.5%, 83.8% 67.5%, 84.6% 68.9%,
+	    84.6% 68.9%, 100% 100%);
+}
+.aboutus_space{
+	height: 100%;
+	width: 300px;
+	float: left;
+}
+.aboutus_photo_element{
+	width: 10px;
+	height: 10px;
+	/*background-color: #111;*/
+	clip-path: polygon( 0 100%, 46.35% 0, 53.64% 0, 100% 100%);
+	-webkit-clip-path: polygon( 0 100%, 46.35% 0, 53.64% 0, 100% 100%);
+	shape-outside: polygon( 0 100%, 46.35% 0, 53.64% 0, 100% 100%);
+	-webkit-shape-outside: polygon( 0 100%, 46.35% 0, 53.64% 0, 100% 100%);
+	float: left;
+}
+
+
+
+
+
+@media screen and (max-width: 720px) {
+   .home_title{
+		font-size: 24pt;
+	}
+	.page1_container{
+		top: 46%;
+		height: 54%;
+	}
+}
+@media screen and (min-width: 1400px) {
+   .home_title{
+		font-size: 96pt;
+	}
+}
+
+
+
